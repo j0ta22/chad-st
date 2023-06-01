@@ -1,0 +1,83 @@
+body {
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  /*background: linear-gradient(
+    231deg, 
+    rgb(51, 51, 52) 0%, 
+    rgb(70, 69, 70) 35%, 
+    rgb(80, 78, 81) 100%);*/
+}
+
+
+.my-font {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #000000;
+  font-size: 4em;
+}
+.my-container {
+  background: linear-gradient(
+    231deg, 
+    rgba(0, 0, 0, 0.582) 0%, 
+    rgba(19, 19, 20, 0.503) 35%, 
+    rgba(47, 47, 51, 0.587) 100%);
+}
+
+.my-container-2 {
+  display: flex;
+  justify-content: center;
+    padding: 30px;
+}
+
+.my-btn {
+  display: inline-block;
+  background-color: rgba(28, 28, 28, 0.621);
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  padding: 4px;
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.my-btn:hover {
+  background-color: rgb(29, 29, 30);
+  box-shadow: #3f3d40;
+}
+
+.my-text {
+  color: beige;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.css-button-gradient--2 {
+  min-width: 120px;
+  height: 40px;
+  color: #af9bbc;
+  padding: 5px 5px;
+  margin-left: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-flex;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #d765f4 0%, #cb00da 75%);
+}
+.css-button-gradient--2:hover {
+  background-position: right center;
+}
+.css-button-gradient--2:active {
+  top: 2px;
+}
